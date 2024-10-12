@@ -1,0 +1,50 @@
+main {
+    height:850px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.info h2 {
+    color: white;
+    font-size: 55px;
+    margin-bottom: 30px;
+}
+
+.info p {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.info .lenguages {
+    color: rgb(99, 99, 255);
+}
+
+.info .exp {
+    color: greenyellow;
+}
+
+.info div {
+    display: flex;
+    gap: 30px;
+}
+
+img {
+    width: 500px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px 10px white; /* Sombra inicial */
+    animation: colorShadow 2s infinite alternate;
+    transition: box-shadow 0.5s ease-in-out;
+}
+
+@keyframes colorShadow {
+    0% {
+        box-shadow: 0 0 20px 10px white;
+    }
+    100% {
+        box-shadow: 0 0 20px 10px orange;
+    }
+}

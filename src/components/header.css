@@ -1,0 +1,55 @@
+header {
+    background-color: #232323;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-weight: 400;
+}
+
+.name {
+    color: orange;
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+.a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  }
+
+  .a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1.7px;
+    background-color: orange;
+    bottom: 0;
+    left: 0;
+    transition: width 0.3s ease-in-out;
+  }
+
+  a:hover::after {
+    width: 100%;
+  }
+
+@media (max-width: 430px) {
+   header {
+    flex-direction: column;
+   }
+   nav {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+   }
+}
