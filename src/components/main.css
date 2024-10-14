@@ -48,3 +48,32 @@ main {
         box-shadow: 0 0 20px 10px orange;
     }
 }
+
+@media (max-width: 430px) {
+    main {
+        flex-direction: column;
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .div-img {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .img-main {
+        width: 90%;
+    }
+    .info {
+        width: 90%;
+    }
+    .buttons-div {
+        width: 100%; /* Cambiar a 100% para que ocupe todo el ancho disponible */
+        display: flex;
+        flex-wrap: wrap; /* Permitir que los botones se vayan a la siguiente línea */
+        justify-content: center; /* Centrar los botones */
+        gap: 10px; /* Reducir el espacio entre los botones */
+    }
+
+}

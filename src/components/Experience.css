@@ -1,6 +1,26 @@
 section {
     background-color: #232323;
     padding: 30px;
-    margin: 80px;
     border-radius: 10px;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 90px;
+}
+
+section h2 {
+    color: white;
+}
+
+section .exp-item:not(:last-child) {
+    border-bottom: 1px solid gray; 
+    padding-bottom: 10px; 
+}
+
+@media (max-width: 430px) {
+    section {
+        width: 90%;
+    }
 }

@@ -1,8 +1,40 @@
 .exp-item {
     display: flex;
-    border-bottom: 1px solid gray;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
 }
 
 .exp-img {
     width: 500px;
+}
+
+.exp-info h3 {
+    font-size: 30px;
+    color: orange;
+}
+
+.tech {
+    margin: 10px 0;
+}
+
+.exp-info p {
+    color: white;
+    font-size: 18px;
+}
+
+.exp-buttons {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+@media (max-width: 430px) {
+    .exp-item {
+        flex-direction: column;
+    }
+    .exp-img {
+        width: 100%;
+        
+    }
 }
