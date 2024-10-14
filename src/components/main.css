@@ -32,7 +32,7 @@ main {
     gap: 30px;
 }
 
-img {
+.img-main {
     width: 500px;
     border-radius: 50%;
     box-shadow: 0 0 20px 10px white; /* Sombra inicial */

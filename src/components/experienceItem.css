@@ -1,0 +1,8 @@
+.exp-item {
+    display: flex;
+    border-bottom: 1px solid gray;
+}
+
+.exp-img {
+    width: 500px;
+}
