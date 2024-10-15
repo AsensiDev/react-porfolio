@@ -6,7 +6,7 @@ import YouTube from '../icons/Youtube'
 
 export default function Main() {
   return (
-    <main>
+    <main id='home'>
         <div className='div-img'>
             <img className='img-main' src="fotoperfil.jpg" alt="" />
         </div>

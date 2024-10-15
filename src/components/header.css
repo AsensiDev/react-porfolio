@@ -46,7 +46,7 @@ nav {
 @media (max-width: 430px) {
    header {
     flex-direction: column;
-    margin-bottom: 90px;
+    margin-bottom: 70px;
    }
    nav {
     flex-direction: column;

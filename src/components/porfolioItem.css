@@ -1,0 +1,41 @@
+.porf-item {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
+
+.porf-img {
+    width: 500px;
+}
+
+.porf-info h3 {
+    font-size: 30px;
+    color: orange;
+}
+
+.tech {
+    margin: 10px 0;
+}
+
+.porf-info p {
+    color: white;
+    font-size: 18px;
+}
+
+.porf-buttons {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+@media (max-width: 430px) {
+    .porf-item {
+        flex-direction: column;
+        
+    }
+    .porf-img {
+        width: 100%;
+        
+    }
+}

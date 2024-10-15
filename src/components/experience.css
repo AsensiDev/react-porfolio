@@ -1,0 +1,50 @@
+.exp-section {
+    width: 100%;
+    border-radius: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exp-section h2 {
+    text-align: left;
+}
+
+.exp-item {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.exp-item li {
+    display: flex;
+    flex-direction: column;
+}
+
+.exp-item {
+    width: 60%;
+}
+
+.exp-item h2 {
+    color: orange;
+}
+
+.exp-item h3 {
+    color: white;
+}
+
+strong {
+    color: rgb(0, 247, 255);
+    margin-bottom: 15px;
+}
+
+.exp-item p {
+    color: white;
+    font-size: 18px;
+}
+
+@media (max-width: 430px) {
+   .exp-item {
+    flex-direction: column;
+   }
+}
